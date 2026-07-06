@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   app: {
-    baseURL: "/",
+    baseURL: "./",
   },
 
   css: ["~/assets/css/main.css"],
