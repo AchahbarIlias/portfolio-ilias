@@ -5,7 +5,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
 
-  css: ['./app/assets/main.css'],
+  app: {
+    baseURL: "/",
+  },
+
+  css: ["~/assets/css/main.css"],
 
   modules: [
     '@nuxt/content',
